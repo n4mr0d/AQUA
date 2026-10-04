@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 84" width="100%" height="100%">
+  <defs>
+    <linearGradient id="badgeBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#1E293B" />
+    </linearGradient>
+    <linearGradient id="andritzBlue" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0066B2" />
+      <stop offset="100%" stop-color="#0080E6" />
+    </linearGradient>
+  </defs>
+  
+  <rect x="2" y="2" width="316" height="80" rx="14" fill="url(#badgeBg)" stroke="#334155" stroke-width="1.5" />
+  
+  <!-- Left accent bar -->
+  <rect x="2" y="16" width="5" height="52" rx="2.5" fill="#00A3E0" />
+  
+  <!-- ANDRITZ Typography Mark -->
+  <g transform="translate(18, 16)">
+    <!-- Brand Box -->
+    <rect x="0" y="4" width="112" height="42" rx="8" fill="#0066B2" />
+    <text x="56" y="32" font-family="'Plus Jakarta Sans', 'Arial Black', sans-serif" font-size="19" font-weight="900" letter-spacing="2.5" fill="#FFFFFF" text-anchor="middle">
+      ANDRITZ
+    </text>
+    
+    <!-- Partner details on right -->
+    <text x="124" y="18" font-family="'Inter', 'Segoe UI', sans-serif" font-size="9" font-weight="800" letter-spacing="1.5" fill="#38BDF8">
+      AGENT AGRÉÉ EN ALGÉRIE
+    </text>
+    <text x="124" y="34" font-family="'Inter', 'Segoe UI', sans-serif" font-size="12" font-weight="700" fill="#F8FAFC">
+      Partenaire Officiel
+    </text>
+    <text x="124" y="47" font-family="'Inter', 'Segoe UI', sans-serif" font-size="8.5" font-weight="500" fill="#94A3B8">
+      Leader mondial autrichien
+    </text>
+  </g>
+</svg>
